@@ -1,0 +1,6 @@
+lista = ('Sao Paulo', 'Corinthians', 'Palmeiras', 'Santos FC', 'Barcelona', 'Real Madrid')
+print(f'Os times da lista sao: {lista}')
+print(f'Os Tres primeiros times da lista sao {lista[0:3]}')
+print(f'Os tres ultimos sao {lista[-3:]}')
+print(f'Os times em Ordem Alfabetica sao {sorted(lista)}')
+print(f'O Barcelona esta na {lista.index("Barcelona")}')
